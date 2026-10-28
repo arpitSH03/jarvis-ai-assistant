@@ -1,0 +1,16 @@
+{
+  "name": "jarvis-desktop-assistant",
+  "version": "1.0.0",
+  "description": "JARVIS — Personal AI Desktop Assistant for Windows 10/11",
+  "main": "desktop/main.cjs",
+  "scripts": {
+    "frontend:install": "cd frontend && npm install",
+    "frontend:dev": "cd frontend && npm run dev",
+    "frontend:build": "cd frontend && npm run build",
+    "desktop:start": "electron desktop/main.cjs",
+    "start": "electron desktop/main.cjs"
+  },
+  "devDependencies": {
+    "electron": "^35.0.0"
+  }
+}
